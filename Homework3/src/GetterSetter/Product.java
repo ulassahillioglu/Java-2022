@@ -1,19 +1,6 @@
-package ClassesWithAttributes;
+package GetterSetter;
 
 public class Product {
-<<<<<<< HEAD
-	public Product(int id,String name, String description,double price, int stockAmount,String renk) {
-		System.out.println("Yapıcı Blok Çalıştı");
-//		this.id = id;
-//		this.renk = renk;
-//		this.name = name;
-//		this.price = price;
-//		this.description = description;
-//		this.stockAmount = stockAmount;
-		
-	}
-	
-=======
 //	public Product(int id,String name, String description,double price, int stockAmount,String renk) {
 //		System.out.println("Yapıcı Blok Çalıştı");
 ////		this.id = id;
@@ -25,7 +12,6 @@ public class Product {
 //		
 //	}
 //	
->>>>>>> refs/heads/master
 	public Product() {
 		
 	}
@@ -88,7 +74,4 @@ public class Product {
 	public String getKod() {
 		return this.name.substring(0,1) + this.id;
 	}
-
-	
-
 }
