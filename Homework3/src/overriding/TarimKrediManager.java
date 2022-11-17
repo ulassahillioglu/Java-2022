@@ -1,4 +1,4 @@
-package overriding;
+package Overriding;
 
 public class TarimKrediManager extends BaseKrediManager{
 

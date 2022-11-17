@@ -1,4 +1,4 @@
-package abstractClasses;
+package AbstractClasses;
 
 public class Main {
 
@@ -7,12 +7,8 @@ public class Main {
 		womanGameCalculator.hesapla();
 		womanGameCalculator.gameOver();
 		
-		GameCalculator[] gameCalculators = new GameCalculator[] 
-				{new WomanGameCalculator(),new ManGameCalculator(),new KidsGameCalculator(),new OlderGameCalculator()};
-		
-		for(GameCalculator calculator:gameCalculators) {
-			calculator.hesapla();
-		}
+		GameCalculator gameCalculator = new WomanGameCalculator();
+		gameCalculator.hesapla();
 	}
-	
+
 }

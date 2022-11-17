@@ -1,4 +1,4 @@
-package abstractDemo;
+package AbstractDemo;
 
 public class CustomerManager {
 	BaseDatabaseManager databaseManager;
